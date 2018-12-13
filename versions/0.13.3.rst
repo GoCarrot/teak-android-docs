@@ -1,4 +1,4 @@
-.. include:: ../changelog_entry.rst
+.. include:: /changelog_entry.rst
 
 0.13.3
 ------
