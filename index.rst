@@ -5,8 +5,8 @@
 
 .. include:: global.rst
 
-Getting started with Teak on Unity
-==================================
+Teak for Android Native
+=======================
 
 .. toctree::
     :caption: Teak Documentation
