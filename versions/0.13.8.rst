@@ -1,5 +1,3 @@
-.. include:: /changelog_entry.rst
-
 0.13.8
 ------
 :Breaking Changes:

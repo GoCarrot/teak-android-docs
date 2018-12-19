@@ -8,3 +8,5 @@
         window.location.replace(url.href);
       }
     </script>
+
+.. highlight:: java
