@@ -16,6 +16,7 @@ Teak for Android Native
     Home <https://teak.readthedocs.io/en/latest/>
     Adobe AIR <https://teak.readthedocs.io/projects/air/en/latest/index.html>
     Unity <https://teak.readthedocs.io/projects/unity/en/latest/index.html>
+    iOS <https://teak.readthedocs.io/projects/ios/en/latest/index.html>
 
 .. toctree::
     :caption: Android
@@ -23,5 +24,6 @@ Teak for Android Native
     :hidden:
     :glob:
 
+    third-party
     changelog
 

@@ -180,6 +180,12 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
+####
+# Global include
+with open('global.irst', 'r') as f:
+    rst_prolog = f.read()
+
+####
 # Setup
 def cmp_versions(a, b):
     v = re.compile('^(\d+)\.(\d+)\.(\d+)')
@@ -195,9 +201,7 @@ def cmp_versions(a, b):
     return 0
 
 def setup(app):
-    changelog = """.. include:: global.rst
-
-Changelog
+    changelog = """Changelog
 =========
 """
     for version in sorted(os.listdir('versions'), cmp_versions, reverse=True):
