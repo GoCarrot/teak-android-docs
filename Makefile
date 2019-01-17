@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = python2 -msphinx
-SPHINXPROJ    = TeakUnity
+SPHINXPROJ    = TeakAndroid
 SOURCEDIR     = .
 BUILDDIR      = _build
 
