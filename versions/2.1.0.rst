@@ -3,6 +3,8 @@
 :Breaking Changes:
     * None
 :New Features:
-    * Support ``trackEvent`` for Adobe AIR.
+    * Support ``trackEvent`` for Adobe AIR
+    * Added ``incrementEvent``
+    * Now tracking ``PackageInfo.versionName`` (instead of just ``PackageInfo.versionCode``)
 :Bug Fixes:
-    * None
+    * Properly handle deep links with '?' or '#' in a URL path element
