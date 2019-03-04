@@ -6,5 +6,6 @@
     * Support ``trackEvent`` for Adobe AIR
     * Added ``incrementEvent``
     * Now tracking ``PackageInfo.versionName`` (instead of just ``PackageInfo.versionCode``)
+    * Added support for Google Play's ``com.android.installreferrer.api.InstallReferrerClient``
 :Bug Fixes:
     * Properly handle deep links with '?' or '#' in a URL path element
