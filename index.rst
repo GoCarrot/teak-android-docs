@@ -22,6 +22,7 @@ Teak for Android Native
     :hidden:
     :glob:
 
+    markup
     notification-icon
     third-party
     changelog
