@@ -1,0 +1,9 @@
+3.0.0
+-----
+:Breaking Changes:
+    * ``minSdkVersion`` is now 16
+    * ``targetSdkVersion`` must now be 28 or higher
+:New Features:
+    * Teak can now use ``androidx`` or the ``support-v4`` libraries for its dependencies.
+:Bug Fixes:
+    * None
