@@ -6,4 +6,4 @@
 :New Features:
     * Teak can now use ``androidx`` or the ``support-v4`` libraries for its dependencies.
 :Bug Fixes:
-    * None
+    * Can now use the 5.x series of the Facebook SDK.
