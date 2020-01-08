@@ -1,0 +1,8 @@
+3.0.1
+-----
+:Breaking Changes:
+    * None
+:New Features:
+    * Teak can now optionally ignore the default Firebase configuration, use ``<meta-data android:name="io_teak_ignore_default_firebase_configuration" android:value="true" />``
+:Bug Fixes:
+    * None
