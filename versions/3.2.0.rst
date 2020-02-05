@@ -1,0 +1,8 @@
+3.2.0
+-----
+:Breaking Changes:
+    * None
+:New Features:
+    * Supports Facebook SDK 6.x
+:Bug Fixes:
+    * None
