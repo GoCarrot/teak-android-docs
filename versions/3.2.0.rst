@@ -4,5 +4,6 @@
     * None
 :New Features:
     * Supports Facebook SDK 6.x
+    * Added ``io_teak_log_trace``, enable to log out every Teak call with parameters
 :Bug Fixes:
-    * None
+    * Fixes compatibility with Firebase 20.1+
