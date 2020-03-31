@@ -6,5 +6,6 @@
     * Supports Facebook SDK 6.x
     * Added ``io_teak_log_trace``, enable to log out every Teak call with parameters
     * Added ``logout``
+    * Added ``teakChannelName`` to the dictionary reported by notification and reward claim events
 :Bug Fixes:
     * Fixes compatibility with Firebase 20.1+
