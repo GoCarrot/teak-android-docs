@@ -22,6 +22,9 @@ Teak for Android Native
     :hidden:
     :glob:
 
+    integration
+    working-with-teak
+    javadoc_link
     markup
     notification-icon
     third-party
