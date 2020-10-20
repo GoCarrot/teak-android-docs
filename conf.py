@@ -110,10 +110,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-# Build JavaDoc
-import subprocess
-subprocess.call('cd .. ; ./gradlew generateApiDoc', shell=True)
-html_extra_path = ['../build/docs']
+html_extra_path = ['javadoc']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.

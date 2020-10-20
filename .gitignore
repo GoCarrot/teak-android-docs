@@ -2,4 +2,3 @@ _build
 _static
 changelog.rst
 .DS_Store
-javadoc
