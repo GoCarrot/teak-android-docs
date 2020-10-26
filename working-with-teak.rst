@@ -11,13 +11,21 @@ All Teak events will be delayed until ``identifyUser`` is called.
 
 .. important:: This should be the same way that you identify the user in your system, so that when you export data from Teak, it will be easy for you to associate with your own data.
 
-``Teak.identifyUser(String userId)``
+::
 
-``Teak.identifyUser(String userId, String email)``
+    Teak.identifyUser(String userId)
 
-``Teak.identifyUser(String userId, String[] optOut)``
+::
 
-``Teak.identifyUser(String userId, String[] optOut, String email)``
+    Teak.identifyUser(String userId, String email)
+
+::
+
+    Teak.identifyUser(String userId, String[] optOut)
+
+::
+
+    Teak.identifyUser(String userId, String[] optOut, String email)
 
 Parameters
     :userId: User identifier, required.
@@ -36,9 +44,13 @@ User Attributes
 ---------------
 Teak allows you to add a limited number of attributes to users. A maximum of 16 string and 16 numeric attributes can be used.
 
-``Teak.setNumericAttribute(String attributeName, double attributeValue)``
+::
 
-``Teak.setStringAttribute(String attributeName, String attributeValue)``
+    Teak.setNumericAttribute(String attributeName, double attributeValue)
+
+::
+
+    Teak.setStringAttribute(String attributeName, String attributeValue)
 
 Parameters
     :attributeName: The name of the user attribute.
