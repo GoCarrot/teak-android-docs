@@ -16,11 +16,13 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 
 import os, re, subprocess
 from functools import cmp_to_key
+
+docs_common = importlib.import_module('teak-docs-common')
 
 # read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 # if read_the_docs_build:
@@ -35,7 +37,10 @@ from functools import cmp_to_key
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-# extensions = [ "breathe" ]
+extensions = [ 'sphinx.ext.intersphinx' ]
+
+# Intersphinx
+intersphinx_mapping = docs_common.intersphinx_mapping(globals())
 
 # breathe_projects = {
 #     "teak":"_doxygen/xml/",
@@ -183,6 +188,10 @@ texinfo_documents = [
      author, 'TeakAndroid', 'One line description of project.',
      'Miscellaneous'),
 ]
+
+# -- Sidebar --------------------------------------------------------------
+
+docs_common.generate_sidebar(globals(), 'teak-android', './_sidebar.rst.inc')
 
 ####
 # Global include
