@@ -1,19 +1,3 @@
-..
-  Be sure to make changes to the Unity Android docs as needed
-
-.. toctree::
-    :maxdepth: 1
-    :titlesonly:
-    :hidden:
-
-    working-with-teak
-    javadoc_link
-    markup
-    notification-icon
-    third-party
-    changelog
-
-
 Integration
 ===========
 
