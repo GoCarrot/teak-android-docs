@@ -20,8 +20,10 @@
 import os, re, subprocess
 from functools import cmp_to_key
 
+import importlib
 import sys
-sys.path.insert(0, os.path.abspath('.'))
+
+sys.path.append('.')
 
 docs_common = importlib.import_module('teak-docs-common')
 
