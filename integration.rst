@@ -2,12 +2,10 @@
   Be sure to make changes to the Unity Android docs as needed
 
 .. toctree::
-    :caption: Android
-    :maxdepth: 2
+    :maxdepth: 1
+    :titlesonly:
     :hidden:
-    :glob:
 
-    integration
     working-with-teak
     javadoc_link
     markup
