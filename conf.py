@@ -16,11 +16,12 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import sys
-sys.path.insert(0, os.path.abspath('.'))
 
 import os, re, subprocess
 from functools import cmp_to_key
+
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 
 docs_common = importlib.import_module('teak-docs-common')
 
