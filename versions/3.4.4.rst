@@ -1,0 +1,8 @@
+3.4.4
+-----
+:Breaking Changes:
+    * None
+:New Features:
+    * None
+:Bug Fixes:
+    * Fix deadlock when a UnitySendMessage call would cause another callback into Teak under certain circumstances

@@ -1,0 +1,10 @@
+3.4.2
+-----
+:Breaking Changes:
+    * None
+:New Features:
+    * Let users use theor own FirebaseMessagingService
+    * Added ``isTeakNotification``
+    * Added ``onMessageReceivedExternal``
+:Bug Fixes:
+    * None
