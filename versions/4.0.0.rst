@@ -14,6 +14,7 @@
     * Minimum target SDK is now API 30
     * ``com.android.installreferrer`` version used is now 2.2
 :New Features:
-    * None
+    * Now using v2 Signatures for request signing (this is not a user-facing change).
+    * Now supports out-of-memory fallbacks for all notifiation images.
 :Bug Fixes:
     * Fixed a bug where links created on the Teak Dashboard could only link to the teakXXXXX:// scheme.
