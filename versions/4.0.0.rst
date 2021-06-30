@@ -16,5 +16,6 @@
 :New Features:
     * Now using v2 Signatures for request signing (this is not a user-facing change).
     * Now supports out-of-memory fallbacks for all notifiation images.
+    * Added ``teakScheduleId`` and ``teakCreativeId`` to NotificationEvent
 :Bug Fixes:
     * Fixed a bug where links created on the Teak Dashboard could only link to the teakXXXXX:// scheme.
