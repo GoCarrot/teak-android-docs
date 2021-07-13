@@ -5,4 +5,4 @@
 :New Features:
     * None
 :Bug Fixes:
-    * None
+    * Fixed a bug where links created on the Teak Dashboard could only link to the teakXXXXX:// scheme.
