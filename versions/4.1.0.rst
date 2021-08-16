@@ -1,0 +1,10 @@
+4.1.0
+-----
+:Breaking Changes:
+    * None
+:New Features:
+    * Added support for targeting Android 12 (API level 31)
+    * Added a flag to preview SDK 5 changes, ``io_teak_sdk5_behaviors``
+        * Will no longer automatically collect Facebook Access Token, instead you must pass the Facebook User Id to ``Teak#identifyUser``
+:Bug Fixes:
+    * Fixed attribution for ``teak_rewardlink_name`` when coming in from a different creative type
