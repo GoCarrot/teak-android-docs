@@ -1,0 +1,8 @@
+4.2.0
+-----
+:Breaking Changes:
+    * None
+:New Features:
+    * ``Teak#handleDeepLinkPath`` lets you manually resolve a deep link path, e.g. /foo/bar?fizz=buzz
+:Bug Fixes:
+    * Fixed trace log output for identifyUser to include parameter names
