@@ -1,0 +1,8 @@
+4.1.2
+-----
+:Breaking Changes:
+    * None
+:New Features:
+    * None
+:Bug Fixes:
+    * Fixes issue in Android 12 compatibility that prevented push notifications from displaying when the app was not running.
