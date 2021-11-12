@@ -1,0 +1,8 @@
+4.1.6
+-----
+:Breaking Changes:
+    * None
+:New Features:
+    * None
+:Bug Fixes:
+    * Fix for crash when an Amazon build did not contain Google Play Billing references.
