@@ -1,0 +1,9 @@
+4.1.9
+-----
+:Breaking Changes:
+    * None
+:New Features:
+    * None
+:Bug Fixes:
+    * Add Google Play Billing v4 to ``proguard.txt``
+    * If there's a notification/link launch on 'first launch' use that instead of the install referrer
