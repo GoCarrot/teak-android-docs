@@ -1,0 +1,8 @@
+4.1.12
+------
+:Breaking Changes:
+    * None
+:New Features:
+    * None
+:Bug Fixes:
+    * On Android 11 & 12 push notification PendingIntents would previously overwrite each other, this fixes that issue.
